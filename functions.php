@@ -337,4 +337,5 @@ add_image_size( 'home-feature', 600, 340, true ); // Homepage Featured Image
 add_image_size( 'home-thumbnail', 320, 220, true ); // Homepage Thumbnails
 add_image_size( 'category-thumbnail', 480, 330, true ); // Category Middle Image
 add_image_size( 'page-feature', 980, 440, true ); // Featured Page Banner
-?>
+
+add_image_size( 'pp-home-thumbnail', 320, 150, true); // special size for under the content slider

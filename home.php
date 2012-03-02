@@ -26,9 +26,9 @@
 		} ?></ul>
 		
                     <h1><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h1>
-                    <h3><?php the_time(__("l, F j, Y", 'organicthemes')); ?></h3>
+                    <h3><?php the_time(__("l, F j, Y", 'playable_press')); ?></h3>
                     <?php the_excerpt(); ?>
-                    <a class="read_more" href="<?php the_permalink() ?>" rel="bookmark"><?php _e("Read More", 'organicthemes'); ?></a>
+                    <a class="read_more" href="<?php the_permalink() ?>" rel="bookmark"><?php _e("Read More", 'playable_press'); ?></a>
                 </div> 
             </li>
             <?php endwhile; ?>
@@ -46,36 +46,43 @@
         
 <?php /*			<h3><?php echo cat_id_to_name(of_get_option('category_home1column')); ?></h3> */ ?>
             
-			<?php $wp_query = new WP_Query(array('cat'=>of_get_option('category_home1column'),'showposts'=>of_get_option('postnumber_home1column'),'paged'=>$paged)); ?>
+			<?php $wp_query = new WP_Query(array('cat'=>of_get_option('category_home1column'),'showposts'=>5,'paged'=>$paged)); ?>
+			
+			<?php $a = 1; ?>
+			
             <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post(); ?>
             <?php $meta_box = get_post_custom($post->ID); $video = $meta_box['custom_meta_video'][0]; ?>
             <?php global $more; $more = 0; ?>
             
-            	<div class="homecontent one_column">
+            	<div class="homecontent one_column"<?=($a == 5)? ' style="border-bottom: none;"' : ''; ?>>
                     <?php if ( $video ) : ?>
 						<div class="video"><?php echo $video; ?></div>
                     <?php else: ?>
-                        <a class="thumbnail" href="<?php the_permalink() ?>" rel="bookmark"><?php the_post_thumbnail( 'home-thumbnail' ); ?></a>
+                        <a class="thumbnail" href="<?php the_permalink() ?>" rel="bookmark"><?php the_post_thumbnail( 'pp-home-thumbnail' ); ?></a>
                     <?php endif; ?>
                     <div class="homeinfo">
-                    	<div class="datebox">
-                            <div class="month"><?php the_time(__("M", 'organicthemes')) ?></div>
-                            <div class="day"><?php the_time(__("j", 'organicthemes')) ?></div>
-                        </div>
+					
+					<ul id="platforms"><?php foreach((get_the_category()) as $childcat) {
+			if (cat_is_ancestor_of(32, $childcat)) { ?>
+			<li class="cat-item-<?=$childcat->cat_ID;?>">
+				<a href="<?=get_category_link($childcat->cat_ID);?>"><?=$childcat->cat_name;?></a>
+			</li>
+			<?php }
+		} ?></ul>
+					
                         <h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
                         <div class="postauthor">            
-                            <p><?php _e("Posted by", 'organicthemes'); ?> <?php the_author_posts_link(); ?> &middot; <a href="<?php the_permalink(); ?>#respond"><?php comments_number(__("Leave a Comment", 'organicthemes'), __("1 Comment", 'organicthemes'), __("% Comments", 'organicthemes')); ?></a></p>
+                            <p><?php _e("Posted by", 'playable_press'); ?> <?php the_author_posts_link(); ?> &middot; <a href="<?php the_permalink(); ?>#respond"><?php comments_number(__("Leave a Comment", 'playable_press'), __("1 Comment", 'playable_press'), __("% Comments", 'playable_press')); ?></a></p>
                         </div>
                         <div class="excerpt"><?php the_excerpt(); ?></div>
-                        <a class="read_more" href="<?php the_permalink() ?>" rel="bookmark"><?php _e("Read More", 'organicthemes'); ?></a>
+
                     </div>
                 </div>
-                
+             
+			
+			<?php $a++; ?>
+			
             <?php endwhile; ?>
-            
-            <div class="pagination">
-            	<?php if (function_exists("number_paginate")) { number_paginate(); } ?>
-            </div>
             
             <?php else : // do not delete ?>
 			<?php endif; // do not delete ?>
@@ -84,62 +91,49 @@
         
         <?php } else { ?>
     	<?php } ?>
-        
-        <?php if(of_get_option('display_home2column') == 'true') { ?>
+		
+	    <?php if(of_get_option('display_homeside') == 'true') { ?>
 
-    	<div id="two_column">
-        
+		<?php include(TEMPLATEPATH."/sidebar_home.php");?>
+    
+	    <?php } else { ?>
+	    <?php } ?>
+		</div>
+
+
+    	<div id="three_column">
+	        <?php $a = 1; ?>
+		
         	<h3><?php echo cat_id_to_name(of_get_option('category_home2column')); ?></h3>
 
-			<?php $wp_query = new WP_Query(array('cat'=>of_get_option('category_home2column'),'showposts'=>of_get_option('postnumber_home2column'),'paged'=>$paged)); ?>
-			<?php $post_class = 'first'; ?>
+			<?php $wp_query = new WP_Query(array('cat'=>of_get_option('category_home2column'),'showposts'=>6,'paged'=>$paged)); ?>
             <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post(); ?>
-            <?php $meta_box = get_post_custom($post->ID); $video = $meta_box['custom_meta_video'][0]; ?>
+            <?php $meta_box = get_post_custom($post->ID); ?>
             <?php global $more; $more = 0; ?>
-            <?php $first_or_second = ('first'==$first_or_second) ? 'second' : 'first'; ?>
 
-				<div class="homecontent two_column <?php echo $first_or_second; ?>">
-                    <?php if ( $video ) : ?>
-						<div class="video"><?php echo $video; ?></div>
-                    <?php else: ?>
-                        <a class="thumbnail" href="<?php the_permalink() ?>" rel="bookmark"><?php the_post_thumbnail( 'home-thumbnail' ); ?></a>
-                    <?php endif; ?>
-                    <div class="homeinfo">
-                    	<div class="datebox">
-                            <div class="month"><?php the_time(__("M", 'organicthemes')) ?></div>
-                            <div class="day"><?php the_time(__("j", 'organicthemes')) ?></div>
-                        </div>
+				<div class="homecontent three_column <?php if ($a == 3) { echo "third"; $a = 0; }?>">
+					<a class="thumbnail" href="<?php the_permalink() ?>" rel="bookmark"><?php the_post_thumbnail( 'home-thumbnail' ); ?></a>
+					<div class="homeinfo">
                         <h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-                        <div class="postauthor">            
-                            <p><?php _e("Posted by", 'organicthemes'); ?> <?php the_author_posts_link(); ?> &middot; <a href="<?php the_permalink(); ?>#respond"><?php comments_number(__("Leave a Comment", 'organicthemes'), __("1 Comment", 'organicthemes'), __("% Comments", 'organicthemes')); ?></a></p>
+                        <div class="postauthor">
+                            <p><?php _e("Posted by", 'playable_press'); ?> <?php the_author_posts_link(); ?> &middot; <a href="<?php the_permalink(); ?>#respond"><?php comments_number(__("Leave a Comment", 'playable_press'), __("1 Comment", 'playable_press'), __("% Comments", 'playable_press')); ?></a></p>
                         </div>
                         <div class="excerpt"><?php the_excerpt(); ?></div>
                         
                     </div>
                 </div>
-
+				
+			<?php if ($a == 3) { echo '<div class="clearfix"></div>'; } ?>
+				
+			<?php $a++; ?>
 			<?php endwhile; ?>
-            
-            <div class="pagination">
-            	<?php if (function_exists("number_paginate")) { number_paginate(); } ?>
-            </div>
             
             <?php else : // do not delete ?>
 			<?php endif; // do not delete ?>
 
 		</div>
-        
-        <?php } else { ?>
-    	<?php } ?>
 
 	</div>
-    
-    <?php if(of_get_option('display_homeside') == 'true') { ?>
-
-		<?php include(TEMPLATEPATH."/sidebar_home.php");?>
-    
-    <?php } else { ?>
-    <?php } ?>
 
 </div>
 

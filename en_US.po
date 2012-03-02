@@ -1,0 +1,914 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Magazine Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 17:13-0500\n"
+"PO-Revision-Date: 2011-10-24 17:13-0500\n"
+"Last-Translator: Jonathan Kight <dark225@aol.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Users\\JON_LAPTOP\\Desktop\\Working Folder\\Magazine Theme\\Updated Source\\organic_magazine\n"
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/404.php:9
+msgid "Not Found, Error 404"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/404.php:10
+msgid "The page you are looking for no longer exists."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:16
+#: Source\organic_magazine/category.php:17
+#: Source\organic_magazine/home.php:58
+#: Source\organic_magazine/home.php:121
+#: Source\organic_magazine/index.php:16
+#: Source\organic_magazine/page_blog.php:24
+#: Source\organic_magazine/search.php:16
+msgid "Posted by"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:16
+#: Source\organic_magazine/category.php:17
+#: Source\organic_magazine/index.php:16
+#: Source\organic_magazine/page_blog.php:24
+#: Source\organic_magazine/search.php:16
+msgid "on"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:16
+#: Source\organic_magazine/category.php:17
+#: Source\organic_magazine/page_blog.php:24
+#: Source\organic_magazine/search.php:16
+msgid "F j, Y"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:16
+#: Source\organic_magazine/category.php:17
+#: Source\organic_magazine/home.php:58
+#: Source\organic_magazine/home.php:121
+#: Source\organic_magazine/index.php:16
+#: Source\organic_magazine/page_blog.php:24
+#: Source\organic_magazine/search.php:16
+msgid "Leave a Comment"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:16
+#: Source\organic_magazine/category.php:17
+#: Source\organic_magazine/home.php:58
+#: Source\organic_magazine/home.php:121
+#: Source\organic_magazine/index.php:16
+#: Source\organic_magazine/page_blog.php:24
+#: Source\organic_magazine/search.php:16
+msgid "1 Comment"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:16
+#: Source\organic_magazine/category.php:17
+#: Source\organic_magazine/home.php:58
+#: Source\organic_magazine/home.php:121
+#: Source\organic_magazine/index.php:16
+#: Source\organic_magazine/page_blog.php:24
+#: Source\organic_magazine/search.php:16
+msgid "% Comments"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:16
+#: Source\organic_magazine/category.php:17
+#: Source\organic_magazine/index.php:16
+#: Source\organic_magazine/page.php:17
+#: Source\organic_magazine/page_blog.php:24
+#: Source\organic_magazine/page_full.php:21
+#: Source\organic_magazine/search.php:16
+msgid "(Edit)"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:24
+#: Source\organic_magazine/page_blog.php:30
+#: Source\organic_magazine/search.php:24
+msgid "Category:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:24
+#: Source\organic_magazine/page_blog.php:30
+#: Source\organic_magazine/search.php:24
+msgid "Tags:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/archive.php:28
+#: Source\organic_magazine/category.php:33
+#: Source\organic_magazine/index.php:35
+#: Source\organic_magazine/page.php:21
+#: Source\organic_magazine/page_full.php:25
+#: Source\organic_magazine/search.php:28
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/author.php:25
+msgid "Website:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/author.php:28
+msgid "Profile:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/author.php:31
+msgid "Posts by"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/author.php:41
+msgid "No posts by this author."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/category.php:29
+msgid "Category"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/category.php:29
+msgid "Tags"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:10
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:22
+msgid "Comments"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:23
+msgid "No Responses"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:23
+msgid "One Response"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:23
+msgid "% Responses"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:23
+msgid "to"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:33
+msgid "Trackbacks"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:34
+msgid "Check out what others are saying..."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:57
+msgid "Leave A Comment"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:64
+msgid "You must be"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:64
+msgid "logged in"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:64
+msgid "to post a comment."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:71
+msgid "Logged in as"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:71
+msgid "Log out"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:76
+msgid "Name"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:76
+#: Source\organic_magazine/comments.php:79
+msgid "(required)"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:79
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:82
+msgid "Website"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/comments.php:90
+msgid "Submit Comment"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/footer.php:37
+msgid "Copyright"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/footer.php:37
+msgid "Y"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/footer.php:37
+msgid "All Rights Reserved"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/footer.php:39
+msgid "Magazine Theme v3"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/footer.php:39
+msgid "by"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/footer.php:39
+#: Source\organic_magazine/footer.php:43
+msgid "Organic Themes"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/footer.php:39
+msgid "WordPress Hosting"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/footer.php:39
+#: Source\organic_magazine/header.php:15
+msgid "RSS Feed"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/functions.php:32
+#: Source\organic_magazine/functions.php:48
+msgid "Theme Options"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/functions.php:49
+msgid "This theme requires the Options Framework plugin installed and activated to manage your theme options."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/functions.php:49
+msgid "Install Now"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/functions.php:123
+msgid "&raquo;"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/functions.php:123
+msgid "&laquo"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/functions.php:221
+msgid "Paste Video Embed Code"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/functions.php:222
+msgid "Enter Vimeo, YouTube or other embed code to display a featured video. (600px by 340px Featured Slider)"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/header.php:16
+msgid "Atom Feed"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/header.php:81
+msgid "Search Here"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/home.php:20
+#: Source\organic_magazine/index.php:16
+msgid "l, F j, Y"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/home.php:22
+#: Source\organic_magazine/home.php:77
+#: Source\organic_magazine/index.php:21
+#: Source\organic_magazine/page.php:17
+#: Source\organic_magazine/page_blog.php:27
+#: Source\organic_magazine/page_full.php:21
+msgid "Read More"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/home.php:53
+#: Source\organic_magazine/home.php:116
+msgid "M"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/home.php:54
+#: Source\organic_magazine/home.php:117
+msgid "j"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/home.php:68
+#: Source\organic_magazine/home.php:131
+msgid "Tweet"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/index.php:25
+msgid "Filed under"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/index.php:25
+msgid "Tagged with"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:32
+msgid "One"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:32
+msgid "Two"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:32
+msgid "Three"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:32
+msgid "Four"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:32
+msgid "Five"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:35
+msgid "French Toast"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:35
+msgid "Pancake"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:35
+msgid "Omelette"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:35
+msgid "Crepe"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:35
+msgid "Waffle"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "1 Second"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "2 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "4 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "6 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "8 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "10 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "12 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "14 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "16 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "18 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "20 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "30 Seconds"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "1 Minute"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:44
+msgid "Hold Frame"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:47
+#: Source\organic_magazine/options.php:128
+#: Source\organic_magazine/options.php:135
+#: Source\organic_magazine/options.php:142
+#: Source\organic_magazine/options.php:149
+msgid "Yes"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:47
+msgid "No"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:58
+msgid "All Categories"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:63
+msgid "Select a page:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:73
+msgid "Homepage Settings"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:76
+msgid "Featured Slider Category"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:77
+msgid "Choose the category you wish to display in the homepage slider."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:79
+#: Source\organic_magazine/options.php:99
+#: Source\organic_magazine/options.php:112
+#: Source\organic_magazine/options.php:159
+msgid "Select a category:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:83
+msgid "Featured Slider Posts To Display"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:84
+msgid "Enter the number of posts you would like to display in the featured slider."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:89
+msgid "Featured Slider Transition Interval"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:90
+msgid "Choose the transition time for the homepage slider. This is the time the frame is held before transitioning to the next slide."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:96
+msgid "One Column Featured Posts Category"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:97
+msgid "Choose the category you wish to display for the one column featured posts."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:103
+msgid "One Column Posts Displayed"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:104
+msgid "Enter the number of posts you would like to display in the one column featured posts."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:109
+msgid "Two Column Featured Posts Category"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:110
+msgid "Choose the category you wish to display for the two column featured posts."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:116
+msgid "Two Column Posts Displayed"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:117
+msgid "Enter the number of posts you would like to display in the two column featured posts."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:122
+msgid "Display Settings"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:125
+msgid "Display The Search Field In Header?"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:126
+msgid "Select whether or not you would like to display the search field in the header."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:132
+msgid "Display The Homepage One Column Posts?"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:133
+msgid "Select whether or not you would like to display the one column featured posts on the homepage."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:139
+msgid "Display The Homepage Two Column Posts?"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:140
+msgid "Select whether or not you would like to display the two column featured posts on the homepage."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:146
+msgid "Display The Homepage Sidebar?"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:147
+msgid "Select whether or not you would like to display the sidebar on the homepage."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:153
+msgid "Page Templates"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:156
+msgid "Blog Template Category"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:157
+msgid "Choose the category you wish to display on the blog page template."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:163
+msgid "Blog Posts To Display"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/options.php:164
+msgid "Enter the number of posts you would like to display on the blog page template."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/page_archive.php:16
+msgid "Archives"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/page_archive.php:21
+msgid "By Page:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/page_archive.php:26
+msgid "By Month:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/page_archive.php:31
+msgid "By Category:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/page_archive.php:40
+msgid "By Post:"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/page_blog.php:41
+msgid "Page Not Found"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/page_blog.php:42
+msgid "We're sorry, but the page you're looking for isn't here."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/page_blog.php:43
+msgid "Try searching for the page you are looking for or using the navigation in the header or sidebar"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/sidebar.php:6
+#: Source\organic_magazine/sidebar_home.php:6
+#: Source\organic_magazine/sidebar_left.php:6
+#: Source\organic_magazine/sidebar_right.php:6
+msgid "Widget Area"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/sidebar.php:7
+#: Source\organic_magazine/sidebar_home.php:7
+#: Source\organic_magazine/sidebar_left.php:7
+#: Source\organic_magazine/sidebar_right.php:7
+msgid "This section is widgetized. To add widgets here, go to the"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/sidebar.php:7
+#: Source\organic_magazine/sidebar_home.php:7
+#: Source\organic_magazine/sidebar_left.php:7
+#: Source\organic_magazine/sidebar_right.php:7
+msgid "Widgets"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/sidebar.php:7
+#: Source\organic_magazine/sidebar_home.php:7
+#: Source\organic_magazine/sidebar_left.php:7
+#: Source\organic_magazine/sidebar_right.php:7
+msgid "panel in your WordPress admin, and add the widgets you would like to the"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/sidebar.php:7
+#: Source\organic_magazine/sidebar_home.php:7
+#: Source\organic_magazine/sidebar_right.php:7
+msgid "Right Sidebar"
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/sidebar.php:8
+#: Source\organic_magazine/sidebar_home.php:8
+#: Source\organic_magazine/sidebar_left.php:8
+#: Source\organic_magazine/sidebar_right.php:8
+msgid "*This message will be overwritten after widgets have been added."
+msgstr ""
+
+#: C:\Users\JON_LAPTOP\Desktop\Working
+#: Folder\Magazine Theme\Updated
+#: Source\organic_magazine/sidebar_left.php:7
+msgid "Left Sidebar"
+msgstr ""
+

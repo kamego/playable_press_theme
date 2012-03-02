@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2 {
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-family: 'Open Sans';
+	font-size: 48px;
+	letter-spacing: -3px;
+	font-weight: normal;
+	line-height: 50px;
+	color: #555;
+}
+h2 p {
+	font-size: 28px;
+	line-height: 30px;
+	color: #BBB;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: -1px;
+	margin-top: 10px;
+}
+p {
+	margin-bottom: 20px;
+	line-height: 18px;
+	font-size: 14px;
+}
+a {
+	color: #09C
+}

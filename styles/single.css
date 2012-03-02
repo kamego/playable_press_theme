@@ -1,0 +1,9 @@
+/* CSS Document */
+
+.hero-image {
+	overflow: hidden;
+}
+
+.hero-image img {
+	width: 600px;
+}
